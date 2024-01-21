@@ -60,3 +60,23 @@
 .socialLogos a {
   margin: 0 5px;
 }
+@media (max-width: 600px) {
+  .info {
+    flex-direction: column;
+  }
+  .social {
+    margin: 10px 0;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .links a {
+    margin: 5px 0;
+  }
+
+  .inputWrapper input {
+    padding: 2px;
+  }
+}

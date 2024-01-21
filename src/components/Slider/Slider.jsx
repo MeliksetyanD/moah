@@ -25,6 +25,7 @@ const Slider = () => {
     }
     fetchSliderImages()
   }, [])
+
   return (
     <Swiper modules={[Navigation, Pagination]} spaceBetween={10} slidesPerView={1} navigation>
       {sliderImages &&
