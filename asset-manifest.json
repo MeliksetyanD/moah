@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/moah/static/css/main.66815565.css",
+    "main.js": "/moah/static/js/main.977accad.js",
+    "static/media/maisn.jpg": "/moah/static/media/maisn.eb7e2228050d7b381251.jpg",
+    "static/media/instagram.svg": "/moah/static/media/instagram.ec24bcd7b47dcb4e43ce128ab62aad70.svg",
+    "index.html": "/moah/index.html",
+    "static/media/Input.svg": "/moah/static/media/Input.ef3991c35cd669949c112d8e6350b79c.svg",
+    "static/media/facebook.svg": "/moah/static/media/facebook.8bafeda20f0c46bf3d57db95217ca87d.svg",
+    "main.66815565.css.map": "/moah/static/css/main.66815565.css.map",
+    "main.977accad.js.map": "/moah/static/js/main.977accad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66815565.css",
+    "static/js/main.977accad.js"
+  ]
+}
