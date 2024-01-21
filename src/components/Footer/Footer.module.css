@@ -1,0 +1,62 @@
+.footer {
+  height: 10vh;
+
+  padding: 20px 15px 0;
+  display: flex;
+  justify-content: space-between;
+
+  flex-direction: column;
+  border-top: 1px solid rgba(0, 0, 0, 0.171);
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #8d8d8d;
+
+  margin: 0 3px;
+  cursor: pointer;
+  transition: 0.3s;
+  letter-spacing: 0.3px;
+}
+.links a:hover {
+  color: #000000;
+}
+.inputWrapper {
+  margin-right: 20px;
+  padding-right: 30px;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+.inputBtn {
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  transition: 0.3s;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.inputWrapper input::placeholder {
+  font-size: 12px;
+}
+.inputWrapper input:focus {
+  outline: none;
+}
+.inputWrapper input {
+  border: 0;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 25px 10px 0;
+}
+.socialLogos a {
+  margin: 0 5px;
+}

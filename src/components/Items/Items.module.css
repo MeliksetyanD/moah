@@ -1,0 +1,32 @@
+.itemsMain {
+  margin: 20px 5px;
+}
+.itemsMain h1 {
+  color: #000;
+  text-shadow: none;
+  font-size: 33px;
+}
+.itemsMain button {
+  border: 1px solid transparent;
+  padding: 5px;
+  background-color: transparent;
+  color: #a18a68;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+.itemsMain button:hover {
+  color: #312b20;
+  border-color: #000;
+}
+.itemsNav {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}

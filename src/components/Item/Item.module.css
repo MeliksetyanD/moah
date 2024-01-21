@@ -1,0 +1,30 @@
+.item {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 20vw;
+  height: 31vh;
+  border: 1px solid rgba(0, 0, 0, 0.041);
+
+  transition: 0.3s;
+}
+.item:hover {
+  box-shadow: 4px 8px 39px 0px rgba(34, 60, 80, 0.2);
+}
+.img {
+  height: 100%;
+  width: 100%;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.label {
+  margin: 10px 0;
+}
+.price {
+  margin: 5px 0;
+  color: #a18a68;
+}

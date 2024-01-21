@@ -1,0 +1,41 @@
+.ourStory {
+  padding: 10vh;
+}
+.ourStory h1 {
+  text-align: center;
+  margin: 5vh 0;
+  color: black;
+  text-shadow: none;
+}
+.ourStory h2 {
+  font-size: 24px;
+  margin: 3vh 0;
+}
+.ourStory h3 {
+  margin: 2vh 0;
+  font-size: 20px;
+  text-align: center;
+}
+.ourStory p {
+  margin: 1vh 0;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+}
+.imgBox {
+  width: 80vw;
+  height: 50vh;
+  margin: 0 auto;
+  background-image: url('./maisn.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.ourStory ul {
+  margin: 2vh 0;
+}
+.ourStory ul li {
+  font-size: 17px;
+  margin: 2vh 0;
+}

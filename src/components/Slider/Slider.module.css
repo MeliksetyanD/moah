@@ -1,0 +1,37 @@
+.mainDiv {
+  height: 80vh;
+  width: 100%;
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 33px;
+  color: white;
+  text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.71);
+}
+.price {
+  color: white;
+  font-size: 26px;
+  margin: 15px 0;
+}
+.btn {
+  width: 170px;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  border: 1px solid white;
+  background-color: transparent;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}

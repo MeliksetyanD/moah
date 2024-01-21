@@ -1,0 +1,23 @@
+.nopage {
+  min-height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nopage h1 {
+  color: #000;
+  text-shadow: none;
+}
+
+.nopage p {
+  margin: 5vh;
+}
+.homepagelink {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  border: 1px solid black;
+  padding: 2vh;
+}
