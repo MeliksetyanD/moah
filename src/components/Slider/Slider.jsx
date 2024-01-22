@@ -10,29 +10,51 @@ import styles from './Slider.module.css'
 
 import { Link } from 'react-router-dom'
 import { getAll } from '../../utils/products'
-
+import img from '../../images/maisn.jpg'
+import img1 from '../../images/maisn.jpg'
+import img2 from '../../images/main3.jpg'
+const initial = [
+  {
+    id: 1,
+    image: img,
+    title: 'ZZarda Saaa',
+    price: 100000,
+  },
+  {
+    id: 2,
+    image: img1,
+    title: 'ZZarda Saaa',
+    price: 100000,
+  },
+  {
+    id: 3,
+    image: img2,
+    title: 'ZZarda Saaa',
+    price: 100000,
+  },
+]
 const Slider = () => {
-  const [sliderImages, setSliderImages] = useState(null)
-  useEffect(() => {
-    const fetchSliderImages = async () => {
-      try {
-        const response = await getAll(3)
-
-        setSliderImages(response)
-      } catch (e) {
-        console.log(`Erro with ${e}`)
-      }
-    }
-    fetchSliderImages()
-  }, [])
-
+  const [sliderImages, setSliderImages] = useState(initial)
+  // useEffect(() => {
+  //   const fetchSliderImages = async () => {
+  //     try {
+  //       const response = await getAll(3)
+  //       console.log(response)
+  //       setSliderImages(response)
+  //     } catch (e) {
+  //       console.log(`Erro with ${e}`)
+  //     }
+  //   }
+  //   fetchSliderImages()
+  // }, [])
+  console.log(sliderImages)
   return (
     <Swiper modules={[Navigation, Pagination]} spaceBetween={10} slidesPerView={1} navigation>
       {sliderImages &&
         sliderImages.map((el, index) => (
           <SwiperSlide key={index}>
             <div className={styles.mainDiv} style={{ backgroundImage: `url(${el['image']})` }}>
-              <h1>Gold big hoops</h1>
+              <h1>{el['title']}</h1>
               <div className={styles.price}>{`${el['price']} $`}</div>
               <Link to={`/shop/${el['id']}`} className={styles.btn}>
                 View Product
